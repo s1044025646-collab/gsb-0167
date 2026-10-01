@@ -1,0 +1,18 @@
+{
+  "name": "layered-wall-conduction",
+  "version": "1.0.0",
+  "private": true,
+  "description": "1D transient conduction and energy accounting backend for layered plane walls (FVM + backward Euler).",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --experimental-sqlite --experimental-strip-types src/api/server.ts",
+    "cli": "node --experimental-sqlite --experimental-strip-types src/cli/main.ts",
+    "demo": "node --experimental-sqlite --experimental-strip-types scripts/demo.ts",
+    "test": "node --experimental-sqlite --experimental-strip-types --test --test-reporter=spec test/*.test.ts",
+    "typecheck": "node --experimental-strip-types --check src/core/solver.ts",
+    "stop": "node scripts/stop.ts"
+  }
+}
