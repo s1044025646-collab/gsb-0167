@@ -1,0 +1,8 @@
+{
+  "name": "demo-composite",
+  "layers": [
+    { "name": "foamLight", "thickness": 0.05, "k": 0.04, "rho": 40, "cp": 1500, "T0": 20, "n": 5 },
+    { "name": "brickLite", "thickness": 0.1, "k": 0.8, "rho": 1600, "cp": 900, "T0": 20, "n": 10 },
+    { "name": "metalSoft", "thickness": 0.02, "k": 200, "rho": 8000, "cp": 450, "T0": 20, "n": 4 }
+  ]
+}

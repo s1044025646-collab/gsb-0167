@@ -1,0 +1,8 @@
+{
+  "L": [
+    { "t": 0, "bc": { "kind": "temperature", "T": 80 } }
+  ],
+  "R": [
+    { "t": 0, "bc": { "kind": "temperature", "T": 20 } }
+  ]
+}
